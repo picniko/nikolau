@@ -39,9 +39,9 @@ export default {
         },
         setProduct(state, product) {
             let check = Array.from(state.products.data);
-            if (check.reverse()[0].id + 1 === product.id) {
+            if (check.length === 0) state.products.data.push(product);
+            else if (check.reverse()[0].id + 1 === product.id)
                 state.products.data.push(product);
-            }
         },
         showModal(state, bool) {
             state.showModalCreateProduct = bool;

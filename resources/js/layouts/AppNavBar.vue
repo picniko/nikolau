@@ -145,7 +145,9 @@
                 class="end-icon-button font-bold h-full"
                 @click="open = !open"
               >
-                {{ user.name }}
+                <span class="truncate" style="max-width: 5rem">
+                  {{ user.name }}
+                </span>
               </div>
               <transition
                 enter-active-class="transition ease-out duration-200"

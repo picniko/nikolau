@@ -2746,6 +2746,8 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 //
 //
 //
+//
+//
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   computed: _objectSpread(_objectSpread({}, (0,vuex__WEBPACK_IMPORTED_MODULE_0__.mapState)({
@@ -4478,10 +4480,7 @@ __webpack_require__.r(__webpack_exports__);
     },
     setProduct: function setProduct(state, product) {
       var check = Array.from(state.products.data);
-
-      if (check.reverse()[0].id + 1 === product.id) {
-        state.products.data.push(product);
-      }
+      if (check.length === 0) state.products.data.push(product);else if (check.reverse()[0].id + 1 === product.id) state.products.data.push(product);
     },
     showModal: function showModal(state, bool) {
       state.showModalCreateProduct = bool;
@@ -31177,10 +31176,19 @@ var render = function() {
                               }
                             },
                             [
-                              _vm._v(
-                                "\n              " +
-                                  _vm._s(_vm.user.name) +
-                                  "\n            "
+                              _c(
+                                "span",
+                                {
+                                  staticClass: "truncate",
+                                  staticStyle: { "max-width": "5rem" }
+                                },
+                                [
+                                  _vm._v(
+                                    "\n                " +
+                                      _vm._s(_vm.user.name) +
+                                      "\n              "
+                                  )
+                                ]
                               )
                             ]
                           ),
