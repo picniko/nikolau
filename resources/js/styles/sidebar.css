@@ -1,0 +1,4 @@
+/* Sude */
+.men-left {
+    @apply flex flex-col flex-grow border-r border-gray-200 bg-white overflow-y-auto shadow-lg p-3;
+}

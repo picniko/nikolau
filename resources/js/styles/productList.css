@@ -1,0 +1,16 @@
+.item {
+    @apply pt-1 flex w-full mx-auto overflow-hidden bg-white rounded-lg shadow-lg ml-3 mr-3;
+}
+
+img {
+    @apply h-48 w-full object-contain md:w-48;
+}
+
+.info {
+    @apply w-5/6 p-4 md:p-1 ml-4;
+}
+
+.info .info-description  {
+  @apply mt-2 text-sm text-gray-600;
+}
+

@@ -1,0 +1,11 @@
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import "../js/styles/navigation.css";
+@import "../js/styles/transitions.css";
+@import "../js/styles/cart.css";
+@import "../js/styles/auth.css";
+@import "../js/styles/createProduct.css";
+@import "../js/styles/productList.css";

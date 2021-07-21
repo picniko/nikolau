@@ -1,0 +1,47 @@
+/* Logo */
+header {
+   @apply bg-white border-b shadow-md sticky top-0 z-50;
+}
+
+.logo-brand {
+    @apply block w-60;
+}
+
+.logo-brand img {
+    @apply w-40;
+}
+
+/* Search */
+.nav-search {
+    @apply w-96;
+}
+
+.user-dropdown {
+    @apply origin-top-right absolute right-0 mt-2 w-56 rounded-md bg-white ring-1 ring-black ring-opacity-5;
+}
+
+.user-dropdown .user-dropdown-link {
+    @apply text-gray-700 block px-4 py-2 text-sm hover:text-cyan-800;
+}
+
+.nav-search input {
+    @apply h-8 rounded-lg bg-gray-100 px-4 pr-4 w-full pl-8 focus:outline-none;
+}
+
+.nav-search .nav-search-icon {
+    @apply absolute top-0 left-0 h-full w-8 flex justify-center items-center;
+}
+
+/* End icons butoons */
+.end-icons {
+    @apply flex h-full;
+}
+
+.end-icons .end-icon-button {
+    @apply relative group hover:bg-gray-100 px-4 cursor-pointer flex flex-col items-center justify-center;
+}
+
+.end-icons .end-icon-button .el-badge {
+    @apply absolute top-3 right-4 inline-flex items-center justify-center px-2 py-1 text-xs font-bold leading-none text-red-100 transform translate-x-1/2 -translate-y-1/2 rounded-full;
+}
+
