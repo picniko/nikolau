@@ -30,7 +30,7 @@
           <div class="mt-8 sm:mx-auto sm:w-full sm:max-w-sn">
             <div
               class="form-div sm:rounded-lg sm:max-w-md"
-              style="width: 600px"
+              style="width: 600px; transform: scale(0.9); transform-origin: 0 0"
             >
               <div style="text-align: -webkit-center">
                 <svg
@@ -67,7 +67,7 @@
               </div>
 
               <!-- Email Address -->
-              <div>
+              <div class="mt-4">
                 <label
                   for="email"
                   class="block text-sm font-medium text-gray-700"

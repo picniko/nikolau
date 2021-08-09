@@ -30,7 +30,7 @@
           <div class="sm:mx-auto sm:w-full sm:max-w-sn">
             <div
               class="form-div sm:rounded-lg sm:max-w-md"
-              style="width: 600px"
+              style="width: 600px; transform: scale(0.9); transform-origin: 0 0"
             >
               <div style="text-align: -webkit-center">
                 <svg
@@ -43,7 +43,7 @@
                   />
                 </svg>
               </div>
-              
+
               <!-- Email Address -->
               <div>
                 <label
@@ -96,7 +96,12 @@
               </div>
 
               <div class="flex items-center justify-end mt-4">
-                <div @click.prevent="showRegister(true)">Не зареганы?</div>
+                <div
+                  @click.prevent="showRegister(true)"
+                  class="text-gray-500 cursor-pointer"
+                >
+                  Нет аккаунта?
+                </div>
                 <button
                   type="button"
                   class="btn-cancel"

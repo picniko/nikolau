@@ -42,7 +42,7 @@
       style="margin-top: 350px; width: 220px"
     >
       <!-- Current: "bg-gray-100 text-gray-900", Default: "text-gray-600 hover:bg-gray-50 hover:text-gray-900" -->
-      <div class="bg-white px-1 py-3 border-gray-200">
+      <div class="bg-white px-1 py-3 border-gray-200" style="transform: scale(0.9); transform-origin: 0 0">
         <div
           class="
             flex

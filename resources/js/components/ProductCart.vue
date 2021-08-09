@@ -15,7 +15,7 @@
       </div>
 
       <!-- Product title -->
-      <div class="ml-4 w-full align-middle">
+      <div class="ml-4 w-full align-middle" style="align-self: center;">
         <span class="font-bold text-base">{{ product.title }}</span>
       </div>
     </div>
